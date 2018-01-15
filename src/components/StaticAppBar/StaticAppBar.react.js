@@ -407,7 +407,7 @@ class StaticAppBar extends Component {
                         id="headerSection"
                         className="topAppBar"
 
-                        title={<div id="rightIconButton"><Link to='/' style={{ float: 'left', marginTop: '-10px',height:'25px',width:'122px' }}>
+                        title={<div id="rightIconButton"><Link to='https://chat.susi.ai' style={{ float: 'left', marginTop: '-10px',height:'25px',width:'122px' }}>
                             <img src={susiWhite} alt="susi-logo" className="siteTitle" /></Link><TopMenu /></div>}
                         style={{
                             backgroundColor: themeBackgroundColor, height: '46px',
